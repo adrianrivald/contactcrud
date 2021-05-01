@@ -1,0 +1,85 @@
+.contact-home {
+    display: flex;
+    background-color: rgb(235, 235, 235);
+
+    .contact-main {
+        width: 100%;
+        display: block;
+        padding: 20px 100px;
+        .header {
+            text-align: center;
+            justify-content: center;
+            padding: 20px;
+            
+            .title {
+                font-size: 32px;
+                font-weight: bold;
+            }
+            .line {
+                border: 1px solid #666;
+                width: 100%;
+                margin-top: 30px;
+            }
+        }
+        .contact-edit {
+            justify-content: center;
+            text-align: center;
+                .photo-container {
+                    margin-top: 6px;
+                    margin-bottom: 12px;
+                    padding: 20px;
+                    text-align: center;
+                
+                    img {
+                    border-radius: 100%;
+                    object-fit: cover;
+                    width: 82px;
+                    height: 82px;
+                    background-color: #4a4a4a;
+                    }
+                
+                    .change-profile-photo {
+                    span {
+                        margin-top: 10px;
+                        display: block;
+                        font-size: 12px;
+                        font-weight: bold;
+                        color: #4a90e2;
+                    }
+                
+                    input {
+                        display: none;
+                    }
+                }
+            }
+            .input-field {
+                margin-bottom: 20px;
+                text-align: center;
+                .label {
+                    font-size: 14px;
+                    display: block;
+                    margin-bottom: 10px;
+                }
+                input {
+                    border-width: 0;
+                    outline: 0;
+                    font-size: 14px;
+                    color: #4a4a4a;
+                    width: 40%;
+                    height: 30px;
+                }
+                select {
+                    border-width: 0;
+                    outline: 0;
+                    height: 30px;
+                    font-size: 14px;
+                    color: #4a4a4a;
+                    width: 20%;
+                }
+                .number {
+                    width: 30%;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,51 @@
+.menu-bar {
+    background-color: rgb(66, 66, 66);
+    left: 0;
+    height: 100%;
+    // width: 30px;
+    display: block;
+    transition: all 0.5s ease-in-out;
+    padding: 20px;
+    // &.show {
+    //     display: block;
+    //     width: 300px
+    // }
+
+    .menu-header{
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        align-items: center;
+        
+        .logo {
+            width: auto;
+            img {
+                width: 120px;
+            }
+        }
+        .toggle {
+            cursor: pointer;
+            color: #fff;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    }
+
+    .menu-item {
+        cursor: pointer;
+        color: #fff;
+        margin-top: 40px;
+        &:hover {
+            opacity: 0.5;
+        }
+
+        .text {
+            margin-left: 10px;
+        }
+        .line {
+            border: 1px solid #666666;
+            margin-bottom: 30px;
+            margin-top: 15px;
+        }
+    }
+}

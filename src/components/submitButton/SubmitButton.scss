@@ -1,0 +1,16 @@
+.submit {
+    text-align: center;
+    .submit-button {
+        cursor: pointer;
+        background-color: rgb(8, 194, 169);
+        outline: none;
+        padding: 10px 20px; 
+        text-align: center;
+        font-size: 24px;
+        font-weight: bold;
+        width: 400px;
+        border-radius: 5px;
+        border: 1px solid rgb(190, 190, 190);
+        color: #fff;
+    }
+}
